@@ -1,10 +1,13 @@
 'use client'
 
+import { AppSidebar } from "./AppSidebar"
 import SplineSceneBasic from "./SplineSceneBasic"
 
 
 export default function aiPage() {
     return (
-        <SplineSceneBasic />
+        <AppSidebar>
+            <SplineSceneBasic />
+        </AppSidebar>
     )
 }
